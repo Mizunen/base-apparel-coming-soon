@@ -114,6 +114,7 @@ form{
 .error-icon{
     position: absolute; 
     height: 1.25rem;
+    top: 1.2rem;
     left: 13rem;
 }
 
