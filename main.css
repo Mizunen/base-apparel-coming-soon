@@ -32,12 +32,16 @@ main{
 }
 
 .images{
-    width: 100%;
+    width: 100vw;
 }
 
 .hero-mobile-container{
     width: 100%;
     margin: 0;
+}
+
+.hero-mobile-container img{
+    width: 100%;
 }
 
 .hero-dekstop-container{
@@ -121,6 +125,8 @@ form{
 .error-message{
     color: hsl(0, 93%, 68%);
     font-size: .75rem;
+    position: relative;
+    left: -3.15rem;
 }
 
 .hide{
